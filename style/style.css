@@ -6,3 +6,53 @@
     font-family: 'open sans', sans-serif;
     font-family: 'Work sans',sans-serif;
 }
+/* header style */
+header{
+    background: rgb(255, 144, 14,0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+/*  banner style  */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-discription{
+    color: #727272;
+}
+.btn-primary{
+    width: 180px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF900E;
+
+}
